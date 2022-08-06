@@ -1,7 +1,5 @@
 import asyncio
 import json
-import threading
-
 import aiofiles as aiofiles
 import aiohttp
 import mysql.connector
@@ -20,64 +18,102 @@ class BotDatasoccer:
     Faz a requisicao para api e, com o resultado,
     faz os inserts no banco de dados
     """
-
-    def __init__(self, user: str = None, host: str = None, password: str = None) -> None:
-        self.__user: str = user
-        self.__host: str = host
-        self.__password: str = password
+    def __init__(self, user: str = None, host: str = None, password: str = None, database: str = None) -> None:
+        """
+        Passe os parametros ou alimente o arquivo .env
+        :param user:
+        :param host:
+        :param password:
+        """
+        if user is None or host is None or password is None:
+            self.__user: str = getenv("user")
+            self.__host: str = getenv("host")
+            self.__password: str = getenv("password")
+            self.__database: str = getenv("database")
+        else:
+            self.__user: str = user
+            self.__host: str = host
+            self.__password: str = password
+            self.__database: str = database
 
     @property
-    def user(self):
-        return self.__user
+    def user(self) -> str: return self.__user
 
     @property
-    def host(self):
-        return self.__host
+    def host(self) -> str: return self.__host
 
     @property
-    def password(self):
-        return self.__password
+    def password(self) -> str: return self.__password
+
+    @contextmanager
+    def connectMySQL(self) -> None:
+        """
+        Conecta ao banco de dados, retornando
+        um generator para enconomizar memoria
+        :return:
+        """
+        connection = mysql.connector.connect(
+            host=self.host,
+            user=self.user,
+            password=self.password,
+            database=getenv("database")
+        )
+        try:
+            cursor = connection.cursor()
+            yield cursor
+        except Exception:
+            ...
+        finally:
+            connection.commit()
+            connection.close()
 
     @staticmethod
-    async def apiGetPlayers():
+    async def apiGetPlayers() -> None:
         """
         faz o get da api jogadores
         :return:
         """
-        endpoint = "league-players?key="
-        season_id = "&season_id=2012"
-        url = str(getenv("api") + endpoint + getenv("key") + season_id)
+        endpoint: str = "league-players?key="
+        season_id: str = "&season_id=2012"
+        url: str = str(getenv("api") + endpoint + getenv("key") + season_id)
         async with aiohttp.ClientSession() as session:
             async with session.get(url, ssl=False) as response:
                 if response.status == 200:
                     resp = await response.text()
-                    count = 0
                     for data in json.loads(resp)['data']:
-                        sql = "INSERT INTO Jogador(nome,idade,numero_camisa, assistencias,gols,cartoes_amarelos,"
-                        sql += "cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao)"
-                        sql += "VALUES('{0}', {1}, {2}, {3}, {4}, {5}, {6}, '{7}', {8},'{9}');".format(
+                        sql: str = "INSERT INTO Jogador(id_jogador, nome,idade,numero_camisa, assistencias,gols,cartoes_amarelos,"
+                        sql += "cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)"
+                        sql += "VALUES({0}, '{1}', {2}, {3}, {4}, {5}, {6}, {7}, '{8}',{9}, '{10}', {11});".format(
+                                           int(data["id"]),
                                            data["full_name"],
                                            int(data['age']),
-                                           int(data['club_team_id']),
+                                           10,  # qual o numero da camisa?
                                            int(data['assists_overall']),
                                            int(data['goals_overall']),
                                            int(data['red_cards_overall']),
                                            int(data['yellow_cards_overall']),
                                            data['nationality'],
                                            int(data['penalty_misses']),
-                                           data['position']
+                                           data['position'],
+                                           int(data['club_team_id'])
                                            )
+                        print("[+] DOWNLOAD DATA FROM API, PLEASE, WAIT")
+                        with BotDatasoccer().connectMySQL() as cursor:
+                            try:
+                                cursor.execute(sql)
+                            except Exception:
+                                pass
+                        print("[+] SAVE INSERT QUERYS ON FILE NOW...")
                         async with aiofiles.open('players_insert.txt', 'a') as f:
-                            await f.writelines(sql + "\n")
-                        if count == 1:
-                            break
-                        count += 1
-                        print(data)
+                            try:
+                                await f.writelines(sql + "\n")
+                            except Exception:
+                                pass
                 else:
                     print(f"[-]ERRO GET API PLAYERS - status code {response.status}")
 
     @staticmethod
-    async def apiGetTeam():
+    async def apiGetTeam() -> None:
         """
         faz o get da api times
         :return:
@@ -89,128 +125,145 @@ class BotDatasoccer:
             async with session.get(url, ssl=False) as response:
                 if response.status == 200:
                     resp = await response.text()
-                    count = 0
                     for data in json.loads(resp)['data']:
-                        sql = "INSERT INTO Time(nome,escudo)VALUES("
-                        sql += "'{0}','{1}');".format(data['name'], data['url'])
-                        if count == 1:
-                            break
-                        count += 1
-                        print(data)
-                    async with aiofiles.open('teams_insert.txt', 'a') as f:
-                        await f.writelines(sql + "\n")
+                        sql = "INSERT INTO Time(id_clube, nome,escudo)VALUES("
+                        sql += "{0},'{1}','{2}');".format(int(data['id']), data['name'], data['image'])
+                        print("[+] DOWNLOAD DATA FROM API, PLEASE, WAIT")
+                        with BotDatasoccer().connectMySQL() as cursor:
+                            try:
+                                cursor.execute(sql)
+                            except Exception:
+                                pass
+                        print("[+] SAVE INSERT QUERYS ON FILE NOW...")
+                        async with aiofiles.open('teams_insert.txt', 'a') as f:
+                            try:
+                                await f.writelines(sql + "\n")
+                            except Exception:
+                                pass
                 else:
                     print(f"[-]ERRO GET API TEAMS - status code {response.status}")
 
     @staticmethod
-    async def apiGetMatches():
+    async def apiGetMatches() -> None:
         """
         faz o get da api disputa
         :return:
         """
-        endpoint = "league-matches?key="
-        seanson_id = "&season_id=2012"
-        url = str(getenv("api") + endpoint + getenv("key") + seanson_id)
+        endpoint = "match?key="
+        match_id = "&match_id=579101"
+        url = str(getenv("api") + endpoint + getenv("key") + match_id)
         async with aiohttp.ClientSession() as session:
             async with session.get(url, ssl=False) as response:
                 if response.status == 200:
                     resp = await response.text()
-                    count = 0
-                    for data in json.loads(resp)['data']:
-                        sql = "INSERT INTO Disputa(estadio,numero_rodada,gols_mandante,gols_visitante," \
-                              "cartao_vermelho_mandante, cartao_vermelho_visitante, cartao_amarelo_mandante," \
-                              "cartao_amarelo_visitante, Disputacol)VALUES("
-                        sql += "'{0}',{1},{2},{3},{4},{5},{6},{7},{8});".format(
-                            data['stadium_name'], int(data['game_week']),
-                            int(data["ht_goals_team_a"]) + int(data["goals_2hg_team_a"]),
-                            int(data["ht_goals_team_b"]) + int(data["goals_2hg_team_b"]),
-                            int(data["team_a_red_cards"]), int(data["team_b_red_cards"]),
-                            int(data["team_a_yellow_cards"]), int(data["team_b_yellow_cards"]),
-                            int(data["matches_completed_minimum"])  # qual o disputacol?
-
-                        )
-                        if count == 1:
-                            break
-                        count += 1
-                        print(data)
+                    data = json.loads(resp)["data"]
+                    sql = "INSERT INTO Disputa(id_disputa,estadio,numero_rodada,gols_mandante,gols_visitante," \
+                          "cartao_vermelho_mandante, cartao_vermelho_visitante, cartao_amarelo_mandante," \
+                          "cartao_amarelo_visitante,campeonato_id,clube_id_mandante,clube_id_visitante)VALUES("
+                    sql += "{0},'{1}',{2},{3},{4},{5},{6},{7},{8}, {9}, {10},{11});".format(
+                        int(data["id"]),
+                        data['stadium_name'],
+                        int(data['game_week']),
+                        int(data["ht_goals_team_a"]) + int(data["goals_2hg_team_a"]),
+                        int(data["ht_goals_team_b"]) + int(data["goals_2hg_team_b"]),
+                        int(data["team_a_red_cards"]), int(data["team_b_red_cards"]),
+                        int(data["team_a_yellow_cards"]), int(data["team_b_yellow_cards"]),
+                        2012, int(data["homeID"]), int(data["awayID"]))
+                    with BotDatasoccer().connectMySQL() as cursor:
+                        try:
+                            cursor.execute(sql)
+                        except Exception:
+                            pass
                     async with aiofiles.open('matches_insert.txt', 'a') as f:
                         await f.writelines(sql + "\n")
                 else:
                     print(f"[-]ERRO GET API MATCHES - status code {response.status}")
 
     @staticmethod
-    async def apiGetCamp():
+    async def apiGetCamp() -> None:
         """
         faz o get da api campeonato
         :return:
         """
-        endpoint = "league-list?key="
-        url = str(getenv("api") + endpoint + getenv("key"))
+        endpoint = "league-season?key="
+        season_id = "&season_id=2012"
+        url = str(getenv("api") + endpoint + getenv("key") + season_id)
         async with aiohttp.ClientSession() as session:
             async with session.get(url, ssl=False) as response:
                 if response.status == 200:
                     resp = await response.text()
-                    count = 0
-                    for data in json.loads(resp)['data']:
-                        sql = "INSERT INTO Campeonato(logo,pais,temporada)VALUES("
-                        sql += "'{0}','{1}','{2}');".format(
-                            data['name'], data['country'],  # qual o logo?
-                            data["season"]
-                        )
-                        if count == 1:
-                            break
-                        count += 1
-                        print(data)
+                    data = json.loads(resp)["data"]
+                    sql = "INSERT INTO Campeonato(id_campeonato, logo,pais,temporada)VALUES("
+                    sql += "{0},'{1}','{2}', '{3}');".format(
+                        2012,
+                        "https://cdn.footystats.org/img/competitions/england-premier-league.png",
+                        data['country'],
+                        str(data["starting_year"]) + "/" + str( data["ending_year"])
+                    )
+                    print("[+] DOWNLOAD DATA FROM API, PLEASE, WAIT")
+                    with BotDatasoccer().connectMySQL() as cursor:
+                        try:
+                            cursor.execute(sql)
+                        except Exception as e:
+                            pass
+                    print("[+] SAVE INSERT QUERYS ON FILE NOW...")
                     async with aiofiles.open('league_insert.txt', 'a') as f:
-                        await f.writelines(sql + "\n")
+                        try:
+                            await f.writelines(sql + "\n")
+                        except Exception:
+                            pass
                 else:
                     print(f"[-]ERRO GET API LEAGUE LIST - status code {response.status}")
 
-    @contextmanager
-    def connectMySQL(self):
-        """
-        Conecta ao banco de dados, retornando
-        um generator para enconomizar memoria
-        :return:
-        """
-        connection = mysql.connector.connect(
-            host=self.host,
-            user=self.user,
-            password=self.password
-        )
-        try:
-            yield connection.cursor()
-        except Exception:
-            ...
-        finally:
-            connection.commit()
-            connection.close()
 
-
-def start_threads() -> None:
+def start_with_teams_and_players() -> None:
     """
-    Inicia threads
-    para execucao das consultas a api
-    e insercoes no banco
+    Inicia as que tabelas que possuem
+    nenhuma dependencia ou poucas (foreign keys)
     :return:
     """
     data_soccer = BotDatasoccer(
         host=getenv("host"),
         user=getenv("user"),
-        password=getenv("password")
+        password=getenv("password"),
+        database=getenv("database")
     )
+    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())  # frirula para rodar no windows
+    asyncio.run(data_soccer.apiGetTeam())
+    asyncio.run(data_soccer.apiGetPlayers())
 
-    th: list = [
-        threading.Thread(target=(asyncio.run(data_soccer.apiGetPlayers()))),
-        threading.Thread(target=(asyncio.run(data_soccer.apiGetMatches()))),
-        threading.Thread(target=(asyncio.run(data_soccer.apiGetTeam()))),
-        threading.Thread(target=(asyncio.run(data_soccer.apiGetCamp())))
-    ]
-    [thread.start() for thread in th]
-    [thread.join() for thread in th]
+
+def cp() -> None:
+    """
+    faz a insercao em campeonato
+    :return:
+    """
+    data_soccer = BotDatasoccer(
+        host=getenv("host"),
+        user=getenv("user"),
+        password=getenv("password"),
+        database=getenv("database")
+    )
+    asyncio.run(data_soccer.apiGetCamp())
+
+
+def matches() -> None:
+    """
+    Executa tabela de disputas
+    :return:
+    """
+    data_soccer = BotDatasoccer(
+        host=getenv("host"),
+        user=getenv("user"),
+        password=getenv("password"),
+        database=getenv("database")
+    )
+    asyncio.run(data_soccer.apiGetMatches())
 
 
 if __name__ == '__main__':
     print("[+] BOT DATASOCCER")
     print("[+] INICIANDO INSERÇÕES NO BANCO DE DADOS")
-    start_threads()
+    start_with_teams_and_players()
+    cp()
+    matches()
