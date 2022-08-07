@@ -104,7 +104,7 @@ class BotDatasoccer:
                             except Exception:
                                 pass
                         print("[+] SAVE INSERT QUERYS ON FILE NOW...")
-                        async with aiofiles.open('players_insert.txt', 'a') as f:
+                        async with aiofiles.open('../players_insert.txt', 'a') as f:
                             try:
                                 await f.writelines(sql + "\n")
                             except Exception:
@@ -135,7 +135,7 @@ class BotDatasoccer:
                             except Exception:
                                 pass
                         print("[+] SAVE INSERT QUERYS ON FILE NOW...")
-                        async with aiofiles.open('teams_insert.txt', 'a') as f:
+                        async with aiofiles.open('../teams_insert.txt', 'a') as f:
                             try:
                                 await f.writelines(sql + "\n")
                             except Exception:
@@ -174,7 +174,7 @@ class BotDatasoccer:
                             cursor.execute(sql)
                         except Exception:
                             pass
-                    async with aiofiles.open('matches_insert.txt', 'a') as f:
+                    async with aiofiles.open('../matches_insert.txt', 'a') as f:
                         await f.writelines(sql + "\n")
                 else:
                     print(f"[-]ERRO GET API MATCHES - status code {response.status}")
@@ -207,7 +207,7 @@ class BotDatasoccer:
                         except Exception as e:
                             pass
                     print("[+] SAVE INSERT QUERYS ON FILE NOW...")
-                    async with aiofiles.open('league_insert.txt', 'a') as f:
+                    async with aiofiles.open('../league_insert.txt', 'a') as f:
                         try:
                             await f.writelines(sql + "\n")
                         except Exception:
