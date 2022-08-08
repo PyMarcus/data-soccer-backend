@@ -1,7 +1,6 @@
 import asyncio
 from os import getenv
-
-from src.InsertionBot.BotDatasoccer import BotDatasoccer
+from BotDatasoccer import BotDatasoccer
 
 
 def start_with_teams_and_players() -> None:
