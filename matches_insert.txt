@@ -1,1 +1,0 @@
-INSERT INTO Disputa(id_disputa,estadio,numero_rodada,gols_mandante,gols_visitante,cartao_vermelho_mandante, cartao_vermelho_visitante, cartao_amarelo_mandante,cartao_amarelo_visitante,campeonato_id,clube_id_mandante,clube_id_visitante)VALUES(579101,'Bramall Lane (Sheffield)',11,3,0,0,0,1,2, 2012, 251,145);
