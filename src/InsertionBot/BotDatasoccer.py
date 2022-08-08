@@ -82,7 +82,7 @@ class BotDatasoccer:
                     for data in json.loads(resp)['data']:
                         sql: str = "INSERT INTO Jogador(id_jogador, nome,idade,numero_camisa, assistencias,gols,cartoes_amarelos,"
                         sql += "cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)"
-                        sql += "VALUES({0}, '{1}', {2}, {3}, {4}, {5}, {6}, {7}, '{8}',{9}, '{10}', {11});".format(
+                        sql += 'VALUES({0}, "{1}", {2}, {3}, {4}, {5}, {6}, {7}, "{8}",{9}, "{10}", {11});'.format(
                                            int(data["id"]),
                                            data["full_name"],
                                            int(data['age']),
@@ -127,7 +127,7 @@ class BotDatasoccer:
                     resp = await response.text()
                     for data in json.loads(resp)['data']:
                         sql = "INSERT INTO Time(id_clube, nome,escudo)VALUES("
-                        sql += "{0},'{1}','{2}');".format(int(data['id']), data['name'], data['image'])
+                        sql += '{0},"{1}","{2}");'.format(int(data['id']), data['name'], data['image'])
                         print("[+] DOWNLOAD DATA FROM API, PLEASE, WAIT")
                         with BotDatasoccer().connectMySQL() as cursor:
                             try:
@@ -162,7 +162,7 @@ class BotDatasoccer:
                         sql = "INSERT INTO Disputa(id_disputa,estadio,numero_rodada,gols_mandante,gols_visitante," \
                               "cartao_vermelho_mandante, cartao_vermelho_visitante, cartao_amarelo_mandante," \
                               "cartao_amarelo_visitante,campeonato_id,clube_id_mandante,clube_id_visitante)VALUES("
-                        sql += "{0},'{1}',{2},{3},{4},{5},{6},{7},{8}, {9}, {10},{11});".format(
+                        sql += '{0},"{1}",{2},{3},{4},{5},{6},{7},{8}, {9}, {10},{11});'.format(
                             int(data["id"]),
                             data['stadium_name'],
                             int(data['game_week']),
@@ -198,7 +198,7 @@ class BotDatasoccer:
                     resp = await response.text()
                     data = json.loads(resp)["data"]
                     sql = "INSERT INTO Campeonato(id_campeonato, logo,pais,temporada)VALUES("
-                    sql += "{0},'{1}','{2}', '{3}');".format(
+                    sql += '{0},"{1}","{2}", "{3}");'.format(
                         2012,
                         "https://cdn.footystats.org/img/competitions/england-premier-league.png",
                         data['country'],

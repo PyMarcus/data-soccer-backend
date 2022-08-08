@@ -1,1 +1,1 @@
-INSERT INTO Campeonato(id_campeonato, logo,pais,temporada)VALUES(2012,'https://cdn.footystats.org/img/competitions/england-premier-league.png','England', '2019/2020');
+INSERT INTO Campeonato(id_campeonato, logo,pais,temporada)VALUES(2012,"https://cdn.footystats.org/img/competitions/england-premier-league.png","England", "2019/2020");
