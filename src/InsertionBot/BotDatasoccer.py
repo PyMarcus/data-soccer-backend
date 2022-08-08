@@ -109,6 +109,7 @@ class BotDatasoccer:
                                 await f.writelines(sql + "\n")
                             except Exception:
                                 pass
+                    print(f"SALVOS {len(data)} DADOS")
                 else:
                     print(f"[-]ERRO GET API PLAYERS - status code {response.status}")
 
@@ -140,6 +141,7 @@ class BotDatasoccer:
                                 await f.writelines(sql + "\n")
                             except Exception:
                                 pass
+                    print(f"SALVOS {len(data)} DADOS")
                 else:
                     print(f"[-]ERRO GET API TEAMS - status code {response.status}")
 
@@ -149,33 +151,36 @@ class BotDatasoccer:
         faz o get da api disputa
         :return:
         """
-        endpoint = "match?key="
-        match_id = "&match_id=579101"
+        endpoint = "league-matches?key="
+        match_id = "&season_id=2012&max_per_page=500"
         url = str(getenv("api") + endpoint + getenv("key") + match_id)
         async with aiohttp.ClientSession() as session:
             async with session.get(url, ssl=False) as response:
                 if response.status == 200:
                     resp = await response.text()
-                    data = json.loads(resp)["data"]
-                    sql = "INSERT INTO Disputa(id_disputa,estadio,numero_rodada,gols_mandante,gols_visitante," \
-                          "cartao_vermelho_mandante, cartao_vermelho_visitante, cartao_amarelo_mandante," \
-                          "cartao_amarelo_visitante,campeonato_id,clube_id_mandante,clube_id_visitante)VALUES("
-                    sql += "{0},'{1}',{2},{3},{4},{5},{6},{7},{8}, {9}, {10},{11});".format(
-                        int(data["id"]),
-                        data['stadium_name'],
-                        int(data['game_week']),
-                        int(data["ht_goals_team_a"]) + int(data["goals_2hg_team_a"]),
-                        int(data["ht_goals_team_b"]) + int(data["goals_2hg_team_b"]),
-                        int(data["team_a_red_cards"]), int(data["team_b_red_cards"]),
-                        int(data["team_a_yellow_cards"]), int(data["team_b_yellow_cards"]),
-                        2012, int(data["homeID"]), int(data["awayID"]))
-                    with BotDatasoccer().connectMySQL() as cursor:
-                        try:
-                            cursor.execute(sql)
-                        except Exception:
-                            pass
-                    async with aiofiles.open('../matches_insert.txt', 'a') as f:
-                        await f.writelines(sql + "\n")
+                    data_ = json.loads(resp)["data"]
+                    for data in data_:
+                        sql = "INSERT INTO Disputa(id_disputa,estadio,numero_rodada,gols_mandante,gols_visitante," \
+                              "cartao_vermelho_mandante, cartao_vermelho_visitante, cartao_amarelo_mandante," \
+                              "cartao_amarelo_visitante,campeonato_id,clube_id_mandante,clube_id_visitante)VALUES("
+                        sql += "{0},'{1}',{2},{3},{4},{5},{6},{7},{8}, {9}, {10},{11});".format(
+                            int(data["id"]),
+                            data['stadium_name'],
+                            int(data['game_week']),
+                            int(data["ht_goals_team_a"]) + int(data["goals_2hg_team_a"]),
+                            int(data["ht_goals_team_b"]) + int(data["goals_2hg_team_b"]),
+                            int(data["team_a_red_cards"]), int(data["team_b_red_cards"]),
+                            int(data["team_a_yellow_cards"]), int(data["team_b_yellow_cards"]),
+                            2012, int(data["homeID"]), int(data["awayID"]))
+                        with BotDatasoccer().connectMySQL() as cursor:
+                            try:
+                                cursor.execute(sql)
+                            except Exception:
+                                pass
+                        print("[+] DOWNLOAD DATA FROM API, PLEASE, WAIT")
+                        async with aiofiles.open('../matches_insert.txt', 'a') as f:
+                            await f.writelines(sql + "\n")
+                    print(f"SALVOS {len(data_)} DADOS")
                 else:
                     print(f"[-]ERRO GET API MATCHES - status code {response.status}")
 
@@ -212,5 +217,6 @@ class BotDatasoccer:
                             await f.writelines(sql + "\n")
                         except Exception:
                             pass
+                    print(f"SALVOS {len(data)} DADOS")
                 else:
                     print(f"[-]ERRO GET API LEAGUE LIST - status code {response.status}")

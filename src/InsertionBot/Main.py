@@ -31,6 +31,7 @@ def cp() -> None:
         password=getenv("password"),
         database=getenv("database")
     )
+    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     asyncio.run(data_soccer.apiGetCamp())
 
 
@@ -45,6 +46,7 @@ def matches() -> None:
         password=getenv("password"),
         database=getenv("database")
     )
+    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     asyncio.run(data_soccer.apiGetMatches())
 
 
