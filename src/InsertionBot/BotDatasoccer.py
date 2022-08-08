@@ -66,7 +66,6 @@ class BotDatasoccer:
         finally:
             connection.commit()
             connection.close()
-
     @staticmethod
     async def apiGetPlayers() -> None:
         """
@@ -74,7 +73,7 @@ class BotDatasoccer:
         :return:
         """
         endpoint: str = "league-players?key="
-        season_id: str = "&season_id=2012&max_per_page=500"
+        season_id: str = "&season_id=2012&max_per_page=899"
         url: str = str(getenv("api") + endpoint + getenv("key") + season_id)
         async with aiohttp.ClientSession() as session:
             async with session.get(url, ssl=False) as response:
@@ -120,7 +119,7 @@ class BotDatasoccer:
         :return:
         """
         endpoint = "league-teams?key="
-        final = "&season_id=2012&include=stats&max_per_page=500"
+        final = "&season_id=2012&include=stats&max_per_page=899"
         url = str(getenv("api") + endpoint + getenv("key") + final)
         async with aiohttp.ClientSession() as session:
             async with session.get(url, ssl=False) as response:
@@ -152,7 +151,7 @@ class BotDatasoccer:
         :return:
         """
         endpoint = "league-matches?key="
-        match_id = "&season_id=2012&max_per_page=500"
+        match_id = "&season_id=2012&max_per_page=899"
         url = str(getenv("api") + endpoint + getenv("key") + match_id)
         async with aiohttp.ClientSession() as session:
             async with session.get(url, ssl=False) as response:
