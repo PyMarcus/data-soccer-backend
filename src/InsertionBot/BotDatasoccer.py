@@ -80,13 +80,12 @@ class BotDatasoccer:
                 if response.status == 200:
                     resp = await response.text()
                     for data in json.loads(resp)['data']:
-                        sql: str = "INSERT INTO Jogador(id_jogador, nome,idade,numero_camisa, assistencias,gols,cartoes_amarelos,"
+                        sql: str = "INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,"
                         sql += "cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)"
-                        sql += 'VALUES({0}, "{1}", {2}, {3}, {4}, {5}, {6}, {7}, "{8}",{9}, "{10}", {11});'.format(
+                        sql += 'VALUES({0}, "{1}", {2}, {3}, {4}, {5}, {6}, "{7}", {8},"{9}", {10});'.format(
                                            int(data["id"]),
                                            data["full_name"],
                                            int(data['age']),
-                                           10,  # qual o numero da camisa?
                                            int(data['assists_overall']),
                                            int(data['goals_overall']),
                                            int(data['red_cards_overall']),
@@ -105,7 +104,7 @@ class BotDatasoccer:
                         print("[+] SAVE INSERT QUERYS ON FILE NOW...")
                         async with aiofiles.open('../players_insert.txt', 'a') as f:
                             try:
-                                await f.writelines(sql + "\n")
+                                await f.writelines("\n" + sql + "\n")
                             except Exception:
                                 pass
                     print(f"SALVOS {len(data)} DADOS")
