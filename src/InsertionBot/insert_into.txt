@@ -40,7 +40,7 @@ INSERT INTO Time(id_clube, nome,escudo)VALUES(251,"Sheffield United FC","https:/
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(464624, "Alisson RamsÈs Becker", 29, 1, 0, 1, 1, "Brazil", 0,"Goalkeeper", 151);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(464624, "Alisson Rams√©s Becker", 29, 1, 0, 1, 1, "Brazil", 0,"Goalkeeper", 151);
 
 
 
@@ -68,7 +68,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(467624, "F·bio Henrique Tavares", 28, 3, 2, 0, 6, "Brazil", 0,"Midfielder", 151);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(467624, "F√°bio Henrique Tavares", 28, 3, 2, 0, 6, "Brazil", 0,"Midfielder", 151);
 
 
 
@@ -84,11 +84,11 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4169, "Adri·n San Miguel del Castillo", 35, 0, 0, 0, 1, "Spain", 0,"Goalkeeper", 151);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4169, "Adri√°n San Miguel del Castillo", 35, 0, 0, 0, 1, "Spain", 0,"Goalkeeper", 151);
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4151, "Sadio ManÈ", 29, 7, 18, 0, 3, "Senegal", 0,"Forward", 151);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4151, "Sadio Man√©", 29, 7, 18, 0, 3, "Senegal", 0,"Forward", 151);
 
 
 
@@ -96,11 +96,11 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1331, "Naby Deco KeÔta", 26, 3, 2, 0, 1, "Guinea", 0,"Midfielder", 151);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1331, "Naby Deco Ke√Øta", 26, 3, 2, 0, 1, "Guinea", 0,"Midfielder", 151);
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(464606, "JoÎl Andre Job Matip", 30, 0, 1, 0, 0, "Cameroon", 0,"Defender", 151);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(464606, "Jo√´l Andre Job Matip", 30, 0, 1, 0, 0, "Cameroon", 0,"Defender", 151);
 
 
 
@@ -144,7 +144,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(10852, "Emiliano BuendÌa", 25, 7, 1, 1, 7, "Argentina", 0,"Midfielder", 159);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(10852, "Emiliano Buend√≠a", 25, 7, 1, 1, 7, "Argentina", 0,"Midfielder", 159);
 
 
 
@@ -160,7 +160,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(21742, "Onel L·zaro Hern·ndez Mayea", 28, 2, 1, 0, 0, "Germany", 0,"Midfielder", 159);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(21742, "Onel L√°zaro Hern√°ndez Mayea", 28, 2, 1, 0, 0, "Germany", 0,"Midfielder", 159);
 
 
 
@@ -172,7 +172,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1165, "Ralf F‰hrmann", 33, 0, 0, 0, 0, "Germany", 0,"Goalkeeper", 159);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1165, "Ralf F√§hrmann", 33, 0, 0, 0, 0, "Germany", 0,"Goalkeeper", 159);
 
 
 
@@ -180,9 +180,13 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1062, "Mario Vran
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1062, "Mario Vranƒçiƒá", 32, 0, 1, 0, 3, "Bosnia and Herzegovina", 0,"Midfielder", 159);
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3948, "
+
+
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3948, "≈Åukasz Fabia≈Ñski", 36, 0, 0, 0, 1, "Poland", 0,"Goalkeeper", 153);
+
+
 
 INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4296, "Aaron Cresswell", 32, 0, 3, 0, 7, "England", 0,"Defender", 153);
 
@@ -192,7 +196,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(24320, "Fabi·n Cornelio Balbuena Gonz·lez", 30, 0, 1, 0, 2, "Paraguay", 0,"Defender", 153);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(24320, "Fabi√°n Cornelio Balbuena Gonz√°lez", 30, 0, 1, 0, 2, "Paraguay", 0,"Defender", 153);
 
 
 
@@ -220,7 +224,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(14492, "SÈbastien Haller", 27, 1, 7, 0, 1, "France", 0,"Forward", 153);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(14492, "S√©bastien Haller", 27, 1, 7, 0, 1, "France", 0,"Forward", 153);
 
 
 
@@ -232,7 +236,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(463275, "Javier Hern·ndez Balc·zar", 33, 0, 1, 0, 0, "Mexico", 0,"Forward", 153);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(463275, "Javier Hern√°ndez Balc√°zar", 33, 0, 1, 0, 0, "Mexico", 0,"Forward", 153);
 
 
 
@@ -240,7 +244,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(461665, "Carlos Alberto S·nchez Moreno", 35, 0, 0, 0, 0, "Colombia", 0,"Midfielder", 153);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(461665, "Carlos Alberto S√°nchez Moreno", 35, 0, 0, 0, 0, "Colombia", 0,"Midfielder", 153);
 
 
 
@@ -248,7 +252,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(10528, "Roberto JimÈnez Gago", 35, 0, 0, 0, 0, "Spain", 0,"Goalkeeper", 153);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(10528, "Roberto Jim√©nez Gago", 35, 0, 0, 0, 0, "Spain", 0,"Goalkeeper", 153);
 
 
 
@@ -272,7 +276,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(461296, "David JosuÈ JimÈnez Silva", 36, 10, 6, 0, 0, "Spain", 0,"Midfielder", 93);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(461296, "David Josu√© Jim√©nez Silva", 36, 10, 6, 0, 0, "Spain", 0,"Midfielder", 93);
 
 
 
@@ -280,7 +284,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(2891, "Rodrigo Hern·ndez Cascante", 25, 2, 3, 0, 8, "Spain", 0,"Midfielder", 93);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(2891, "Rodrigo Hern√°ndez Cascante", 25, 2, 3, 0, 8, "Spain", 0,"Midfielder", 93);
 
 
 
@@ -296,21 +300,23 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(216091, "Sergio Leonel Ag¸ero del Castillo", 33, 3, 16, 0, 1, "Argentina", 1,"Forward", 93);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(216091, "Sergio Leonel Ag√ºero del Castillo", 33, 3, 16, 0, 1, "Argentina", 1,"Forward", 93);
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1572, "
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1572, "ƒ∞lkay G√ºndoƒüan", 31, 1, 2, 0, 7, "Germany", 1,"Midfielder", 93);
+
+
 
 INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3386, "Philip Foden", 21, 2, 5, 0, 0, "England", 0,"Midfielder", 93);
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3126, "Claudio AndrÈs Bravo MuÒoz", 38, 0, 0, 0, 0, "Chile", 0,"Goalkeeper", 93);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3126, "Claudio Andr√©s Bravo Mu√±oz", 38, 0, 0, 0, 0, "Chile", 0,"Goalkeeper", 93);
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(463652, "Nicol·s Hern·n Otamendi", 33, 0, 2, 0, 3, "Argentina", 0,"Defender", 93);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(463652, "Nicol√°s Hern√°n Otamendi", 33, 0, 2, 0, 3, "Argentina", 0,"Defender", 93);
 
 
 
@@ -318,7 +324,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(465734, "Jo„o Pedro Cavaco Cancelo", 27, 0, 0, 0, 4, "Portugal", 0,"Defender", 93);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(465734, "Jo√£o Pedro Cavaco Cancelo", 27, 0, 0, 0, 4, "Portugal", 0,"Defender", 93);
 
 
 
@@ -334,7 +340,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4135, "Nathan AkÈ", 26, 2, 2, 0, 2, "Netherlands", 0,"Defender", 148);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4135, "Nathan Ak√©", 26, 2, 2, 0, 2, "Netherlands", 0,"Defender", 148);
 
 
 
@@ -350,7 +356,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(468886, "Jefferson AndrÈs Lerma SolÌs", 27, 2, 1, 1, 13, "Colombia", 0,"Midfielder", 148);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(468886, "Jefferson Andr√©s Lerma Sol√≠s", 27, 2, 1, 1, 13, "Colombia", 0,"Midfielder", 148);
 
 
 
@@ -458,7 +464,9 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4390, "Muhamed Beöi
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4390, "Muhamed Be≈°iƒá", 29, 0, 0, 0, 2, "Bosnia and Herzegovina", 0,"Midfielder", 251);
+
+
 
 INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4010, "Phil Jagielka", 39, 0, 0, 0, 0, "England", 0,"Defender", 251);
 
@@ -488,7 +496,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3959, "Johann Berg Gumunds≠son", 31, 1, 1, 0, 0, "Iceland", 0,"Midfielder", 145);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3959, "Johann Berg Gu√∞munds¬≠son", 31, 1, 1, 0, 0, "Iceland", 0,"Midfielder", 145);
 
 
 
@@ -584,7 +592,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1520, "Pierre-Emile H¯jbjerg", 26, 1, 0, 0, 5, "Denmark", 0,"Midfielder", 146);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1520, "Pierre-Emile H√∏jbjerg", 26, 1, 0, 0, 5, "Denmark", 0,"Midfielder", 146);
 
 
 
@@ -600,7 +608,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(464928, "CÈdric Ricardo Alves Soares", 30, 1, 1, 0, 1, "Portugal", 0,"Defender", 146);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(464928, "C√©dric Ricardo Alves Soares", 30, 1, 1, 0, 1, "Portugal", 0,"Defender", 146);
 
 
 
@@ -636,7 +644,9 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(2799, "Luka Milivojevi
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(2799, "Luka Milivojeviƒá", 30, 1, 3, 0, 12, "Serbia", 0,"Midfielder", 143);
+
+
 
 INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1172, "Max Meyer", 26, 0, 0, 0, 1, "Germany", 0,"Midfielder", 143);
 
@@ -650,7 +660,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3982, "Wilfried Zaha", 29, 3, 4, 0, 5, "CÙte d'Ivoire", 0,"Midfielder", 143);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3982, "Wilfried Zaha", 29, 3, 4, 0, 5, "C√¥te d'Ivoire", 0,"Midfielder", 143);
 
 
 
@@ -662,7 +672,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(10611, "VÌctor Camarasa Ferrando", 27, 0, 0, 0, 0, "Spain", 0,"Midfielder", 143);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(10611, "V√≠ctor Camarasa Ferrando", 27, 0, 0, 0, 0, "Spain", 0,"Midfielder", 143);
 
 
 
@@ -674,7 +684,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4173, "Cheikhou KouyatÈ", 32, 1, 1, 0, 4, "Senegal", 0,"Midfielder", 143);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4173, "Cheikhou Kouyat√©", 32, 1, 1, 0, 4, "Senegal", 0,"Midfielder", 143);
 
 
 
@@ -682,7 +692,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4264, "SÈamus Coleman", 33, 1, 0, 1, 5, "Republic of Ireland", 0,"Defender", 144);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4264, "S√©amus Coleman", 33, 1, 0, 1, 5, "Republic of Ireland", 0,"Defender", 144);
 
 
 
@@ -694,7 +704,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(24399, "Yerry Fernando Mina Gonz·lez", 27, 1, 2, 0, 3, "Colombia", 0,"Defender", 144);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(24399, "Yerry Fernando Mina Gonz√°lez", 27, 1, 2, 0, 3, "Colombia", 0,"Defender", 144);
 
 
 
@@ -702,15 +712,15 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(463422, "Gylfi ﬁÛr Sigursson", 32, 3, 2, 0, 3, "Iceland", 0,"Midfielder", 144);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(463422, "Gylfi √û√≥r Sigur√∞sson", 32, 3, 2, 0, 3, "Iceland", 0,"Midfielder", 144);
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(2704, "Bernard AnÌcio Caldeira Duarte", 29, 2, 3, 0, 2, "Brazil", 0,"Midfielder", 144);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(2704, "Bernard An√≠cio Caldeira Duarte", 29, 2, 3, 0, 2, "Brazil", 0,"Midfielder", 144);
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3078, "AndrÈ Filipe Tavares Gomes", 28, 1, 0, 0, 6, "Portugal", 0,"Midfielder", 144);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3078, "Andr√© Filipe Tavares Gomes", 28, 1, 0, 0, 6, "Portugal", 0,"Midfielder", 144);
 
 
 
@@ -722,7 +732,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1030, "Jean-Philippe Gbamin", 26, 0, 0, 0, 0, "CÙte d'Ivoire", 0,"Midfielder", 144);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1030, "Jean-Philippe Gbamin", 26, 0, 0, 0, 0, "C√¥te d'Ivoire", 0,"Midfielder", 144);
 
 
 
@@ -742,7 +752,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1021, "Jonas Lˆssl", 32, 0, 0, 0, 0, "Denmark", 0,"Goalkeeper", 144);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1021, "Jonas L√∂ssl", 32, 0, 0, 0, 0, "Denmark", 0,"Goalkeeper", 144);
 
 
 
@@ -754,7 +764,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4070, "JosÈ Holebas", 37, 0, 0, 0, 5, "Greece", 0,"Defender", 155);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4070, "Jos√© Holebas", 37, 0, 0, 0, 5, "Greece", 0,"Defender", 155);
 
 
 
@@ -762,7 +772,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(10603, "Francisco FemenÌa Far", 30, 0, 0, 0, 5, "Spain", 0,"Midfielder", 155);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(10603, "Francisco Femen√≠a Far", 30, 0, 0, 0, 5, "Spain", 0,"Midfielder", 155);
 
 
 
@@ -774,7 +784,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4201, "Abdoulaye DoucourÈ", 29, 2, 4, 0, 9, "France", 0,"Midfielder", 155);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4201, "Abdoulaye Doucour√©", 29, 2, 4, 0, 9, "France", 0,"Midfielder", 155);
 
 
 
@@ -790,7 +800,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4019, "Gerard Deulofeu L·zaro", 27, 5, 4, 0, 3, "Spain", 0,"Forward", 155);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4019, "Gerard Deulofeu L√°zaro", 27, 5, 4, 0, 3, "Spain", 0,"Forward", 155);
 
 
 
@@ -838,7 +848,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(10651, "MartÌn Montoya Torralbo", 30, 1, 0, 0, 5, "Spain", 0,"Defender", 209);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(10651, "Mart√≠n Montoya Torralbo", 30, 1, 0, 0, 5, "Spain", 0,"Defender", 209);
 
 
 
@@ -846,11 +856,11 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1100, "Pascal Groﬂ", 30, 4, 2, 0, 4, "Germany", 0,"Midfielder", 209);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1100, "Pascal Gro√ü", 30, 4, 2, 0, 4, "Germany", 0,"Midfielder", 209);
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3097, "Davy Prˆpper", 30, 2, 1, 0, 4, "Netherlands", 0,"Midfielder", 209);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3097, "Davy Pr√∂pper", 30, 2, 1, 0, 4, "Netherlands", 0,"Midfielder", 209);
 
 
 
@@ -862,7 +872,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(14493, "J¸rgen Locadia", 28, 0, 0, 0, 0, "Netherlands", 0,"Forward", 209);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(14493, "J√ºrgen Locadia", 28, 0, 0, 0, 0, "Netherlands", 0,"Forward", 209);
 
 
 
@@ -906,7 +916,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(2871, "Davinson S·nchez Mina", 25, 0, 0, 0, 6, "Colombia", 0,"Defender", 92);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(2871, "Davinson S√°nchez Mina", 25, 0, 0, 0, 6, "Colombia", 0,"Defender", 92);
 
 
 
@@ -930,7 +940,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(470092, "Tanguy NDombËlÈ Alvaro", 25, 2, 2, 0, 3, "France", 0,"Midfielder", 92);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(470092, "Tanguy NDomb√®l√© Alvaro", 25, 2, 2, 0, 3, "France", 0,"Midfielder", 92);
 
 
 
@@ -954,7 +964,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(2954, "Serge Aurier", 29, 5, 1, 1, 4, "CÙte d'Ivoire", 0,"Defender", 92);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(2954, "Serge Aurier", 29, 5, 1, 1, 4, "C√¥te d'Ivoire", 0,"Defender", 92);
 
 
 
@@ -1010,11 +1020,11 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(7633, "JosÈ Ignacio Peleteiro Ramallo", 30, 1, 0, 0, 0, "Spain", 0,"Midfielder", 158);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(7633, "Jos√© Ignacio Peleteiro Ramallo", 30, 1, 0, 0, 0, "Spain", 0,"Midfielder", 158);
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(7245, "Jonathan Kodjia", 32, 0, 0, 0, 1, "CÙte d'Ivoire", 0,"Forward", 158);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(7245, "Jonathan Kodjia", 32, 0, 0, 0, 1, "C√¥te d'Ivoire", 0,"Forward", 158);
 
 
 
@@ -1050,7 +1060,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1241, "Caglar Sˆy¸nc¸", 25, 1, 1, 1, 5, "Turkey", 0,"Defender", 108);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1241, "Caglar S√∂y√ºnc√º", 25, 1, 1, 1, 5, "Turkey", 0,"Defender", 108);
 
 
 
@@ -1078,7 +1088,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4476, "Ayoze PÈrez GutiÈrrez", 28, 4, 8, 0, 0, "Spain", 0,"Forward", 108);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4476, "Ayoze P√©rez Guti√©rrez", 28, 4, 8, 0, 0, "Spain", 0,"Forward", 108);
 
 
 
@@ -1110,7 +1120,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3174, "Rui Pedro dos Santos PatrÌcio", 33, 0, 0, 0, 0, "Portugal", 0,"Goalkeeper", 223);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3174, "Rui Pedro dos Santos Patr√≠cio", 33, 0, 0, 0, 0, "Portugal", 0,"Goalkeeper", 223);
 
 
 
@@ -1134,7 +1144,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(461919, "Jo„o Filipe Iria Santos Moutinho", 35, 6, 1, 0, 7, "Portugal", 0,"Midfielder", 223);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(461919, "Jo√£o Filipe Iria Santos Moutinho", 35, 6, 1, 0, 7, "Portugal", 0,"Midfielder", 223);
 
 
 
@@ -1142,15 +1152,15 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(2922, "R˙ben Diogo Da Silva Neves", 24, 2, 2, 0, 9, "Portugal", 0,"Midfielder", 223);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(2922, "R√∫ben Diogo Da Silva Neves", 24, 2, 2, 0, 9, "Portugal", 0,"Midfielder", 223);
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3351, "Ra˙l Alonso JimÈnez RodrÌguez", 30, 6, 17, 0, 3, "Mexico", 0,"Forward", 223);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3351, "Ra√∫l Alonso Jim√©nez Rodr√≠guez", 30, 6, 17, 0, 3, "Mexico", 0,"Forward", 223);
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3238, "Diogo JosÈ Teixeira da Silva", 25, 1, 7, 0, 4, "Portugal", 0,"Midfielder", 223);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3238, "Diogo Jos√© Teixeira da Silva", 25, 1, 7, 0, 4, "Portugal", 0,"Midfielder", 223);
 
 
 
@@ -1158,11 +1168,11 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(7570, "Romain SaÔss", 31, 1, 2, 1, 12, "Morocco", 0,"Midfielder", 223);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(7570, "Romain Sa√Øss", 31, 1, 2, 1, 12, "Morocco", 0,"Midfielder", 223);
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(39201, "R˙ben GonÁalo Silva Nascimento Vinagre", 22, 0, 0, 0, 1, "Portugal", 0,"Defender", 223);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(39201, "R√∫ben Gon√ßalo Silva Nascimento Vinagre", 22, 0, 0, 0, 1, "Portugal", 0,"Defender", 223);
 
 
 
@@ -1174,7 +1184,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4251, "Adama TraorÈ Diarra", 25, 9, 4, 0, 1, "Spain", 0,"Midfielder", 223);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4251, "Adama Traor√© Diarra", 25, 9, 4, 0, 1, "Spain", 0,"Midfielder", 223);
 
 
 
@@ -1182,11 +1192,11 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(70880, "Martin D˙bravka", 32, 0, 0, 0, 0, "Slovakia", 0,"Goalkeeper", 157);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(70880, "Martin D√∫bravka", 32, 0, 0, 0, 0, "Slovakia", 0,"Goalkeeper", 157);
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(464679, "Fabian Lukas Sch‰r", 30, 0, 2, 0, 5, "Switzerland", 0,"Defender", 157);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(464679, "Fabian Lukas Sch√§r", 30, 0, 2, 0, 5, "Switzerland", 0,"Defender", 157);
 
 
 
@@ -1198,7 +1208,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4226, "Javier Manquillo Gait·n", 27, 1, 0, 0, 5, "Spain", 0,"Defender", 157);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4226, "Javier Manquillo Gait√°n", 27, 1, 0, 0, 5, "Spain", 0,"Defender", 157);
 
 
 
@@ -1214,7 +1224,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(28747, "Miguel ¡ngel AlmirÛn Rejala", 27, 2, 4, 0, 5, "Paraguay", 0,"Midfielder", 157);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(28747, "Miguel √Ångel Almir√≥n Rejala", 27, 2, 4, 0, 5, "Paraguay", 0,"Midfielder", 157);
 
 
 
@@ -1222,7 +1232,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1671, "Joelinton Cassio Apolin·rio de Lira", 25, 2, 2, 0, 7, "Brazil", 0,"Forward", 157);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1671, "Joelinton Cassio Apolin√°rio de Lira", 25, 2, 2, 0, 7, "Brazil", 0,"Forward", 157);
 
 
 
@@ -1242,7 +1252,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3950, "Federico Fern·ndez", 32, 2, 2, 0, 8, "Argentina", 0,"Defender", 157);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3950, "Federico Fern√°ndez", 32, 2, 2, 0, 8, "Argentina", 0,"Defender", 157);
 
 
 
@@ -1286,7 +1296,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(17505, "MattÈo Guendouzi OliÈ", 22, 1, 0, 0, 6, "France", 0,"Midfielder", 59);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(17505, "Matt√©o Guendouzi Oli√©", 22, 1, 0, 0, 6, "France", 0,"Midfielder", 59);
 
 
 
@@ -1298,11 +1308,11 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(470349, "Daniel Ceballos Fern·ndez", 25, 2, 0, 0, 1, "Spain", 0,"Midfielder", 59);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(470349, "Daniel Ceballos Fern√°ndez", 25, 2, 0, 0, 1, "Spain", 0,"Midfielder", 59);
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(17247, "Nicolas PÈpÈ", 26, 5, 5, 0, 4, "CÙte d'Ivoire", 0,"Forward", 59);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(17247, "Nicolas P√©p√©", 26, 5, 5, 0, 4, "C√¥te d'Ivoire", 0,"Forward", 59);
 
 
 
@@ -1318,7 +1328,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4379, "Dami·n Emiliano MartÌnez", 29, 0, 0, 0, 2, "Argentina", 0,"Goalkeeper", 59);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4379, "Dami√°n Emiliano Mart√≠nez", 29, 0, 0, 0, 2, "Argentina", 0,"Goalkeeper", 59);
 
 
 
@@ -1330,7 +1340,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3040, "Victor Nilsson Lindelˆf", 27, 0, 1, 0, 6, "Sweden", 0,"Defender", 149);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3040, "Victor Nilsson Lindel√∂f", 27, 0, 1, 0, 6, "Sweden", 0,"Defender", 149);
 
 
 
@@ -1378,15 +1388,17 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4124, "Juan Manuel Mata GarcÌa", 33, 2, 0, 0, 1, "Spain", 0,"Midfielder", 149);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4124, "Juan Manuel Mata Garc√≠a", 33, 2, 0, 0, 1, "Spain", 0,"Midfielder", 149);
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4138, "Sergio Germ·n Romero", 34, 0, 0, 0, 0, "Argentina", 0,"Goalkeeper", 149);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4138, "Sergio Germ√°n Romero", 34, 0, 0, 0, 0, "Argentina", 0,"Goalkeeper", 149);
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4164, "Nemanja Mati
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4164, "Nemanja Matiƒá", 33, 2, 0, 0, 3, "Serbia", 0,"Midfielder", 149);
+
+
 
 INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4378, "Axel Tuanzebe", 24, 0, 0, 0, 0, "England", 0,"Defender", 149);
 
@@ -1400,7 +1412,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4162, "CÈsar Azpilicueta Tanco", 32, 6, 2, 0, 1, "Spain", 0,"Defender", 152);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4162, "C√©sar Azpilicueta Tanco", 32, 6, 2, 0, 1, "Spain", 0,"Defender", 152);
 
 
 
@@ -1420,7 +1432,9 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3187, "Mateo Kova
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3187, "Mateo Kovaƒçiƒá", 27, 3, 1, 0, 8, "Croatia", 0,"Midfielder", 152);
+
+
 
 INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(3020, "Jorge Luiz Frello Filho", 30, 2, 4, 0, 10, "Italy", 0,"Midfielder", 152);
 
@@ -1430,7 +1444,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4178, "Pedro Eliezer RodrÌguez Ledesma", 34, 1, 1, 0, 1, "Spain", 0,"Midfielder", 152);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4178, "Pedro Eliezer Rodr√≠guez Ledesma", 34, 1, 1, 0, 1, "Spain", 0,"Midfielder", 152);
 
 
 
@@ -1446,7 +1460,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4167, "N'Golo KantÈ", 30, 0, 3, 0, 4, "France", 0,"Midfielder", 152);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4167, "N'Golo Kant√©", 30, 0, 3, 0, 4, "France", 0,"Midfielder", 152);
 
 
 
@@ -1466,7 +1480,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1170, "Sead Kolaöinac", 28, 2, 0, 0, 4, "Bosnia and Herzegovina", 0,"Defender", 59);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1170, "Sead Kola≈°inac", 28, 2, 0, 0, 4, "Bosnia and Herzegovina", 0,"Defender", 59);
 
 
 
@@ -1566,7 +1580,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(17192, "FrÈdÈric Guilbert", 27, 2, 0, 0, 7, "France", 0,"Defender", 158);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(17192, "Fr√©d√©ric Guilbert", 27, 2, 0, 0, 7, "France", 0,"Defender", 158);
 
 
 
@@ -1574,7 +1588,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(2771, "Djibril SidibÈ", 29, 4, 0, 0, 3, "France", 0,"Defender", 144);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(2771, "Djibril Sidib√©", 29, 4, 0, 0, 3, "France", 0,"Defender", 144);
 
 
 
@@ -1586,7 +1600,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(17334, "IsmaÔla Sarr", 23, 4, 5, 0, 1, "Senegal", 0,"Midfielder", 155);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(17334, "Isma√Øla Sarr", 23, 4, 5, 0, 1, "Senegal", 0,"Midfielder", 155);
 
 
 
@@ -1614,7 +1628,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(2949, "JosÈ ¡ngel Esmoris Tasende", 25, 0, 0, 0, 1, "Spain", 0,"Defender", 93);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(2949, "Jos√© √Ångel Esmoris Tasende", 25, 0, 0, 0, 1, "Spain", 0,"Defender", 93);
 
 
 
@@ -1626,11 +1640,13 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1177, "Jes˙s Vallejo L·zaro", 25, 0, 0, 0, 1, "Spain", 0,"Defender", 223);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1177, "Jes√∫s Vallejo L√°zaro", 25, 0, 0, 0, 1, "Spain", 0,"Defender", 223);
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4089, "Mat
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4089, "Matƒõj Vydra", 29, 1, 2, 0, 0, "Czech Republic", 0,"Forward", 145);
+
+
 
 INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4068, "Shane Long", 34, 2, 2, 0, 0, "Republic of Ireland", 0,"Forward", 146);
 
@@ -1692,7 +1708,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(2967, "Mesut ÷zil", 33, 2, 1, 0, 1, "Germany", 0,"Midfielder", 59);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(2967, "Mesut √ñzil", 33, 2, 1, 0, 1, "Germany", 0,"Midfielder", 59);
 
 
 
@@ -1708,11 +1724,11 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1787, "Antonio R¸diger", 28, 0, 2, 0, 3, "Germany", 0,"Defender", 152);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1787, "Antonio R√ºdiger", 28, 0, 2, 0, 3, "Germany", 0,"Defender", 152);
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(2667, "JaÔro Riedewald", 25, 0, 0, 0, 0, "Netherlands", 0,"Defender", 143);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(2667, "Ja√Øro Riedewald", 25, 0, 0, 0, 0, "Netherlands", 0,"Defender", 143);
 
 
 
@@ -1732,7 +1748,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(7268, "GaÎtan Bong Songo", 33, 0, 0, 0, 0, "Cameroon", 0,"Defender", 209);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(7268, "Ga√´tan Bong Songo", 33, 0, 0, 0, 0, "Cameroon", 0,"Defender", 209);
 
 
 
@@ -1740,7 +1756,9 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(138510, "Tudor Cristian B
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(138510, "Tudor Cristian BƒÉlu≈£ƒÉ", 22, 0, 0, 0, 0, "Romania", 0,"Defender", 209);
+
+
 
 INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(10237, "Steven Alzate", 23, 0, 0, 0, 1, "England", 0,"Midfielder", 209);
 
@@ -1794,7 +1812,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(120038, "Eric GarcÌa Martret", 21, 0, 0, 0, 1, "Spain", 0,"Defender", 93);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(120038, "Eric Garc√≠a Martret", 21, 0, 0, 0, 1, "Spain", 0,"Defender", 93);
 
 
 
@@ -1874,7 +1892,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1791, "Sebastian Prˆdl", 34, 0, 0, 0, 0, "Austria", 0,"Defender", 155);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1791, "Sebastian Pr√∂dl", 34, 0, 0, 0, 0, "Austria", 0,"Defender", 155);
 
 
 
@@ -1894,7 +1912,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(39933, "JosÈ Diogo Dalot Teixeira", 22, 0, 0, 0, 0, "Portugal", 0,"Defender", 149);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(39933, "Jos√© Diogo Dalot Teixeira", 22, 0, 0, 0, 0, "Portugal", 0,"Defender", 149);
 
 
 
@@ -1922,7 +1940,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(2966, "HÈctor BellerÌn Moruno", 26, 0, 1, 0, 2, "Spain", 0,"Defender", 59);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(2966, "H√©ctor Beller√≠n Moruno", 26, 0, 1, 0, 2, "Spain", 0,"Defender", 59);
 
 
 
@@ -1950,7 +1968,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1093, "ÿrjan HÂskjold Nyland", 31, 0, 0, 0, 0, "Norway", 0,"Goalkeeper", 158);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1093, "√òrjan H√•skjold Nyland", 31, 0, 0, 0, 0, "Norway", 0,"Goalkeeper", 158);
 
 
 
@@ -2038,7 +2056,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4275, "Rhu-endly Martina", 32, 0, 0, 0, 0, "CuraÁao", 0,"Defender", 144);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4275, "Rhu-endly Martina", 32, 0, 0, 0, 0, "Cura√ßao", 0,"Defender", 144);
 
 
 
@@ -2110,7 +2128,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(186253, "GonÁalo Bento Soares Cardoso", 21, 0, 0, 0, 0, "Portugal", 0,"Defender", 153);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(186253, "Gon√ßalo Bento Soares Cardoso", 21, 0, 0, 0, 0, "Portugal", 0,"Defender", 153);
 
 
 
@@ -2126,7 +2144,9 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(2164, "Filip Benkovi
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(2164, "Filip Benkoviƒá", 24, 0, 0, 0, 0, "Croatia", 0,"Defender", 108);
+
+
 
 INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(195450, "Ali Koiki", 21, 0, 0, 0, 0, "England", 0,"Defender", 145);
 
@@ -2148,7 +2168,9 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(21578, "Lovre Kalini
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(21578, "Lovre Kaliniƒá", 31, 0, 0, 0, 0, "Croatia", 0,"Goalkeeper", 158);
+
+
 
 INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(28424, "Ignacio Pussetto", 26, 0, 0, 0, 1, "Argentina", 0,"Midfielder", 155);
 
@@ -2170,7 +2192,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(86503, "Bruno AndrÈ Cavaco Jord„o", 23, 0, 0, 0, 0, "Portugal", 0,"Midfielder", 223);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(86503, "Bruno Andr√© Cavaco Jord√£o", 23, 0, 0, 0, 0, "Portugal", 0,"Midfielder", 223);
 
 
 
@@ -2178,7 +2200,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1715, "JosÈ Manuel Reina P·ez", 39, 0, 0, 0, 1, "Spain", 0,"Goalkeeper", 158);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1715, "Jos√© Manuel Reina P√°ez", 39, 0, 0, 0, 1, "Spain", 0,"Goalkeeper", 158);
 
 
 
@@ -2194,11 +2216,11 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4121, "Eric Bertrand Bailly", 27, 0, 0, 0, 0, "CÙte d'Ivoire", 0,"Defender", 149);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4121, "Eric Bertrand Bailly", 27, 0, 0, 0, 0, "C√¥te d'Ivoire", 0,"Defender", 149);
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(196841, "Jo„o Pedro Junqueira de Jesus", 20, 0, 0, 0, 0, "Brazil", 0,"Forward", 155);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(196841, "Jo√£o Pedro Junqueira de Jesus", 20, 0, 0, 0, 0, "Brazil", 0,"Forward", 155);
 
 
 
@@ -2214,7 +2236,9 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(46200, "Tom·ö Sou
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(46200, "Tom√°≈° Souƒçek", 26, 0, 3, 0, 0, "Czech Republic", 0,"Midfielder", 153);
+
+
 
 INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(21447, "Mbwana Ally Samatta", 29, 0, 1, 0, 1, "Tanzania", 0,"Forward", 158);
 
@@ -2248,7 +2272,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4278, "Borja Gonz·lez Tom·s", 29, 0, 0, 0, 0, "Spain", 0,"Forward", 158);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(4278, "Borja Gonz√°lez Tom√°s", 29, 0, 0, 0, 0, "Spain", 0,"Forward", 158);
 
 
 
@@ -2276,7 +2300,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(120161, "Jo„o Manuel Neves Virginia", 22, 0, 0, 0, 0, "Portugal", 0,"Goalkeeper", 144);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(120161, "Jo√£o Manuel Neves Virginia", 22, 0, 0, 0, 0, "Portugal", 0,"Goalkeeper", 144);
 
 
 
@@ -2284,7 +2308,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(11415, "Pablo MarÌ Villar", 28, 0, 0, 0, 0, "Spain", 0,"Defender", 59);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(11415, "Pablo Mar√≠ Villar", 28, 0, 0, 0, 0, "Spain", 0,"Defender", 59);
 
 
 
@@ -2300,7 +2324,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1541, "Leroy SanÈ", 26, 0, 0, 0, 0, "Germany", 0,"Midfielder", 93);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(1541, "Leroy San√©", 26, 0, 0, 0, 0, "Germany", 0,"Midfielder", 93);
 
 
 
@@ -2388,7 +2412,7 @@ INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,c
 
 
 
-INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(10786, "Adalberto PeÒaranda Maestre", 24, 0, 0, 0, 0, "Venezuela", 0,"Forward", 155);
+INSERT INTO Jogador(id_jogador, nome,idade, assistencias,gols,cartoes_amarelos,cartoes_vermelhos, nacionalidade,penaltis_defendidos, posicao, clube_id)VALUES(10786, "Adalberto Pe√±aranda Maestre", 24, 0, 0, 0, 0, "Venezuela", 0,"Forward", 155);
 
 
 
